@@ -51,6 +51,18 @@ def _make_timedelta(value):
     return value
 
 
+
+
+
+def useless():
+    x = 3
+    return None
+
+
+
+
+
+
 def setupmethod(f):
     """Wraps a method so that it performs a check in debug mode if the
     first request was already handled.
